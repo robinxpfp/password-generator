@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Password Generator</title>
+</head>
+<body>
+    <div id="container" class="flex justify-center h-screen items-center bg-teal-200">
+        <div class="bg-black py-24 px-28 rounded-full">
+            <div class="space-y-4 my-10">
+                <div>
+                    <h1 id="firsth1" class="text-4xl text-white">Generate a</h1>
+                    <h1 id="secondh1" class="text-4xl text-teal-400">random password</h1>
+                </div>
+                <div>
+                    <h2 id="subtext" class="text-teal-100">Protect your information in the best way</h2>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="border-teal-400 border bg-teal-400 text-black px-3 py-2 rounded-xl" id="generate" onclick="clickPasswords()">Generate passwords</button>
+            </div>
+            <div id="passworddiv" class="flex justify-center pt-4">
+                <div class="space-y-2">
+                    <div id="password1" class="password text-white border-b  bordere rounded-sm px-3 py-1"></div>
+                    <div id="password2" class="password text-white border-b border-white rounded-sm px-3 py-1"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer class="flex justify-center p-4 dark:bg-black  bg-gray-100 dark:text-white text-black">
+        <div class="space-y-2">
+          <p class="mx-10 text-center text-md">
+            Built with
+            <a class="hover:text-gray-800 dark:hover:text-gray-300 hover:decoration-dashed hover:underline cursor-pointer transition duration-500 ease-in-out" href="https://nextjs.org/">Next.js</a>,
+            <a class="hover:text-gray-800 dark:hover:text-gray-300 hover:decoration-dashed hover:underline cursor-pointer transition duration-500 ease-in-out" href="https://tailwindcss.com/">Tailwind</a>
+            and
+            <a class="hover:text-gray-800 dark:hover:text-gray-300 hover:decoration-dashed hover:underline cursor-pointer transition duration-500 ease-in-out" href="https://vercel.com/">Vercel</a>
+            by
+            <a class="hover:text-gray-800 dark:hover:text-gray-300 hover:decoration-dashed hover:underline cursor-pointer transition duration-500 ease-in-out" href="https://robin.do/">Robin</a>
+            (
+            <a class="hover:text-gray-800 dark:hover:text-gray-300 hover:decoration-dashed hover:underline cursor-pointer transition duration-500 ease-in-out" href="https://twitter.com/robinglto_">@robinglto_ on twitter</a>,
+            <a class="hover:text-gray-800 dark:hover:text-gray-300 hover:decoration-dashed hover:underline cursor-pointer transition duration-500 ease-in-out" href="https://github.com/robinglto">@robinglto on github</a>
+            )
+          </p>
+        </div>
+      </footer>
+      
+    <script src="index.js"></script>
+</body>
+</html>
