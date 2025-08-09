@@ -21,5 +21,5 @@ A simple web application to generate random passwords.
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/robinglto/password-generator.git
+   git clone https://github.com/robinxpfp/password-generator.git
    ```
